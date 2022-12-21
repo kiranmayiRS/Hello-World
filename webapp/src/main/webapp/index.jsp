@@ -2,25 +2,21 @@
 
 
 
- <html>
-  <head>
-    <title> Hello world </title>
-  </head>
-  <body>
-   Hello world </br>
-   <%
-    out.println("Your IP address is" + request.getRemoteAddr());
-    %>
-
-  </body>
-  <h1> Hi Welcome </h1>
+ <%@ page import = "java.io.*,java.util.*, javax.servlet.*" %>
+<html>
+   <head>
+      <title>Display Current Date & Time</title>
+   </head>
+   <body>
+      <center>
+         <h1>Display Current Date & Time</h1>
+      </center>
+      <%
+         Date date = new Date();
+         out.print( "<h2 align = \"center\">" +date.toString()+"</h2>");
+      %>
+   </body>
 </html>
-
-
-
-
-
-
 
 
 
