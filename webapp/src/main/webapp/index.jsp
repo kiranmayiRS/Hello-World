@@ -14,8 +14,9 @@
 <h1>  Hi Ansible is started tomorrow </h1> 
 
 <h1> All the best </h1>
+  </body>
     </head>
-</html>y>
+</html>
 
 
 
