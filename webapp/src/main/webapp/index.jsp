@@ -2,39 +2,23 @@
 
 
 
- <%@ page import = "java.io.*,java.util.*, javax.servlet.*" %>
-<html>
-   <head>
-      <title>Display Current Date & Time</title>
-   </head>
-   <body>
-      <center>
-         <h1>Display Current Date & Time</h1>
-      </center>
-      <%
-         Date date = new Date();
-         out.print( "<h2 align = \"center\">" +date.toString()+"</h2>");
-      %>
-   </body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<%!
+  String[] colors = {"Green", "yellow", "Black", "Red", "pink"};
+%>
+<HTML>
+  <HEAD><TITLE>Setting Colors Code</TITLE></HEAD>
+  <BODY>
+    <H1>List of colors</H1>
+    <TABLE BORDER="1" align="center" bgcolor="#E8FDFF"
+     weight="50%" height="40%">
+      <TH>Color Name:</TH>
+      <% for (int i=0; i<colors.length; i++) { %>
+        <TR><TD bgcolor="<%=colors[i] %>">
+     <font color="white"><%= colors[i]%></font></TD></TR>
+      <% } %>
+    </TABLE>
+  </BODY>
+</HTML>
 
 
 
