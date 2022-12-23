@@ -21,6 +21,8 @@
 </HTML>
 <h1> HelloAll </h1>
 <h1> Vaishu ramesh kiran Hanu </h1>
+<h1> Ansible is started </h1>
+
 <h1>friday</h1>
 <h1>ramesh kiranmayi<h1>
 
